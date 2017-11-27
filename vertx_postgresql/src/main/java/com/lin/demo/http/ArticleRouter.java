@@ -12,7 +12,7 @@ import io.vertx.ext.web.Router;
  * http://localhost:8080/article/findAll
  * http://localhost:8080/article/update?fld_id=a5702c10-75a7-439c-8b81-199ddd3af62f&fld_title=更新&fld_content=更新
  * http://localhost:8080/article/find?fld_id=a5702c10-75a7-439c-8b81-199ddd3af62f
- * http://localhost:8080/article/delete?fld_id=1
+ * http://localhost:8080/article/delete?fld_id=a5702c10-75a7-439c-8b81-199ddd3af62f
  */
 public class ArticleRouter {
 	public static final Logger LOGGER = LoggerFactory.getLogger(ArticleRouter.class);
